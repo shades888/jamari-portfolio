@@ -34,26 +34,26 @@
     }
 }
 
-.app__navbar-music-player {
+// .app__navbar-music-player {
    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     flex-direction: column;
     
 
-    @media screen and (min-width: 400px) {
-        justify-content: flex-start;
-    }
+//     @media screen and (min-width: 400px) {
+//         justify-content: flex-start;
+//     }
 
-    @media screen and (min-width: 1200px) {
-        justify-content: center;
-    }
+//     @media screen and (min-width: 1200px) {
+//         justify-content: center;
+//     }
 
-    @media screen and (min-width: 2000px) {
-        justify-content: flex-end;
-    }
-  }
+//     @media screen and (min-width: 2000px) {
+//         justify-content: flex-end;
+//     }
+//   }
 
 
 
