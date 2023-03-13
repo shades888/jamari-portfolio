@@ -187,8 +187,30 @@
             width: 75px;
             height: 75px;
           }
-      
-         
+          //iphone 11 (X,Xs, XR and 11)
+          @media only screen 
+          and (device-width: 414px) 
+          and (device-height: 896px) 
+          and (-webkit-device-pixel-ratio: 2) {
+
+            div:nth-child(1) {
+                width: 75px;
+                height: 75px;
+                
+              }
+    
+               div:nth-child(2) {
+                width: 140px;
+                height: 140px;
+                margin: 1.75rem;
+              }
+    
+            div:nth-child(3) {
+                width: 75px;
+                height: 75px;
+              }
+
+           }
       
          
     }
