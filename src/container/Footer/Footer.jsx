@@ -64,12 +64,12 @@ setFormData({...FormData, [name]: value})
         <div className="app__footer-card">
           {/*contact - email - display */}
           <img src={images.email} alt="email" />
-          <a href="mailto:hello@jamari.com" className="p-text">hello@jamari.com</a>
+          <a href="mailto:jamaribroussard@gmail.com" className="p-text">jamaribroussard@gmail.com</a>
         </div>
            {/*contact - phone - display */}
         <div className="app__footer-card">
           <img src={images.mobile} alt="mobile" />
-          <a href="tel: +1 (314) 707-1243" className="p-text">+1 (314) 707-1243</a>
+          <a href="tel: +1(314)707-1243" className="p-text">+1 (314) 707-1243</a>
         </div>
       </div>
 
