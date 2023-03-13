@@ -11,7 +11,6 @@
     border: 1px solid rgba(249, 249, 249, 0.2);
     position: fixed;
     z-index: 2;
-
 }
 
 .app__navbar-logo {
@@ -19,13 +18,10 @@
     justify-content: flex-start;
     align-items: center;
     
-
     img {
         width: 100px;
         height: 40px;
-        
         border: none;
-        
         
         @media screen and (min-width: 2000px){
         width: 200px;
@@ -34,35 +30,11 @@
     }
 }
 
-// .app__navbar-music-player {
-   
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     flex-direction: column;
-    
-
-//     @media screen and (min-width: 400px) {
-//         justify-content: flex-start;
-//     }
-
-//     @media screen and (min-width: 1200px) {
-//         justify-content: center;
-//     }
-
-//     @media screen and (min-width: 2000px) {
-//         justify-content: flex-end;
-//     }
-//   }
-
-
-
 .app__navbar-links {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-
     list-style: none;
 
     li {
@@ -102,7 +74,7 @@
         }
     }
 
-    @media screen and (max-width: 28.0cm){
+    @media screen and (max-width: 900px){
         display: none;
     }
 }
@@ -190,12 +162,12 @@
         }
 
         
-     @media screen and (min-width: 28.0cm) {
+     @media screen and (min-width: 900px) {
             display: none;
         }        
     }
 
-    @media screen and (min-width: 28.0cm) {
+    @media screen and (min-width: 900px) {
         display: none;
     }        
 }

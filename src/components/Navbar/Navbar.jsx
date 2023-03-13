@@ -5,20 +5,11 @@ import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import './Navbar.scss';
 
-
-//import MusicPlayer from './MusicPlayer.jsx';
-
 /*the ul is going to loop through all the elements I 
-need to have in my navigation bar, 
-1st dynamic block of code = {[]}
+need to have in my navigation bar, 1st dynamic block of code = {[]}
 2nd create an array
-
 */ 
 
-/* <div className="app__navbar-music-player">
-    <MusicPlayer />
-  </div>   */
-  
 function Navbar() {
   const [toggle, setToggle] = useState(false);
 
@@ -26,7 +17,6 @@ function Navbar() {
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <img src={images.logo} alt="logo" />
-
       </div>
       <ul className="app__navbar-links">
         {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
@@ -35,12 +25,7 @@ function Navbar() {
             <a href={`#${item}`}>{item}</a>
           </li>
         ))}
-
-
       </ul>
-
-
-
 
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
@@ -55,7 +40,8 @@ function Navbar() {
               {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
                 <li key={item}>
 
-                  <a href={`#${item}`} onClick={() => setToggle(false)}>{item}
+                  <a href={`#${item}`} onClick={() => setToggle(false)}>
+                    {item}
                   </a>
                 </li>
               ))}
@@ -65,6 +51,6 @@ function Navbar() {
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;
