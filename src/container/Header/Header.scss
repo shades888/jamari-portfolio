@@ -131,12 +131,12 @@
         }
       }
       
-      div:nth-child(2) {
+      div:nth-child(3) {
         width: 100px;
         height: 100px;
       }
       
-      div:nth-child(3) {
+      div:nth-child(2) {
         width: 150px;
         height: 150px;
         margin: 1.75rem;
@@ -150,21 +150,50 @@
 
     @media screen and (min-width: 2000px){
 
-        div:nth-child(2) {
+        div:nth-child(3) {
             width: 400px;
             height: 400px;
           }
       
-          div:nth-child(3) {
+          div:nth-child(1) {
             width: 170px;
             height: 170px;
+            
           }
       
-          div:nth-child(1) {
+          div:nth-child(2) {
             width: 200px;
             height: 200px;
+            margin: 1.75rem;
           }
     }
+
+    @media screen and (max-width: 450px){
+
+
+         div:nth-child(1) {
+            width: 75px;
+            height: 75px;
+            
+          }
+
+           div:nth-child(2) {
+            width: 140px;
+            height: 140px;
+            margin: 1.75rem;
+          }
+
+        div:nth-child(3) {
+            width: 75px;
+            height: 75px;
+          }
+      
+         
+      
+         
+    }
+
+
 
     @media screen and (max-width: 1200px) {
         width: 100%;
